@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<AIdatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AIList>
+    <AIEntry>
+      <ID>0</ID>
+      <zone>0</zone>
+      <state>0</state>
+      <position>
+        <x>-22.2507248</x>
+        <y>0.799997747</y>
+        <z>-137.887146</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>243.7074</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>0</ID>
+      <zone>0</zone>
+      <state>0</state>
+      <position>
+        <x>-22.2507248</x>
+        <y>0.799997747</y>
+        <z>-137.887146</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>243.7074</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+  </AIList>
+</AIdatabase>

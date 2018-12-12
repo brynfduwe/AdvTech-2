@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ObjectDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ObjList>
+    <ObjEntry>
+      <index>0</index>
+      <highLODPath>HexZone 17</highLODPath>
+      <lowLODPath>LowLODZ17</lowLODPath>
+      <position>
+        <x>-179.6</x>
+        <y>1</y>
+        <z>20.1000061</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>14.9999952</y>
+        <z>0</z>
+      </rotation>
+    </ObjEntry>
+  </ObjList>
+</ObjectDatabase>
