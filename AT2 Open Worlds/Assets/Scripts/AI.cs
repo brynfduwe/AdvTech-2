@@ -17,6 +17,8 @@ public class AI : MonoBehaviour
     public float speed;
     public float runSpeed;
     public State CurrentState;
+    public int id;
+    public int originZone;
     public int zone;
 
     public Transform[] nodes;
@@ -40,7 +42,6 @@ public class AI : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
-
 	    if (Input.GetKeyDown(KeyCode.P))
 	    {
             if (Vector3.Distance(transform.position, player.transform.position) < 15)
@@ -118,20 +119,18 @@ public class AI : MonoBehaviour
 	            break;
 	    }
 
-	    //update zone
+
 	    if (currentNode != null)
 	    {
 	        if (Vector3.Distance(transform.position, currentNode.transform.position) > range)
 	        {
-                FindNearestNode();
-
-	            if (Vector3.Distance(transform.position, currentNode.transform.position) > range * 2)
-	            {
-	           //     currentNode.GetComponent<ZoneNode>().AIObjectList.Remove(this.transform);
-	            //    Destroy(this.gameObject);
-	            }
-            }
+	            FindNearestNode();
+	        }
 	    }
+	    else
+	    {
+	        FindNearestNode();
+        }
 	}
 
 
@@ -249,8 +248,10 @@ public class AI : MonoBehaviour
     }
 
 
-    public void SetStateOnSpawn(int _state)
+    public void SetStateOnSpawn(int _state, int _id, int _originZone)
     {
+        id = _id;
+        originZone = _originZone;
         CurrentState = (State) _state;
         Debug.Log("Spawned state: " + CurrentState.ToString());
 

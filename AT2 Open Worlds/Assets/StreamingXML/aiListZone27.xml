@@ -2,527 +2,212 @@
 <AIdatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AIList>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>1</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-158.62</x>
-        <y>1</y>
-        <z>-169.099976</z>
+        <x>-113.085686</x>
+        <y>0.8</y>
+        <z>-93.20298</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>300.594055</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>4</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-121.619995</x>
-        <y>1</y>
-        <z>-197.099976</z>
+        <x>-124.084183</x>
+        <y>0.8</y>
+        <z>-162.464737</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>162.24028</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>4</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-156.62</x>
-        <y>1</y>
-        <z>-214.099976</z>
+        <x>-124.084183</x>
+        <y>0.8</y>
+        <z>-162.464737</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>162.24028</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>10</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-115.619995</x>
-        <y>1</y>
-        <z>-197.099976</z>
+        <x>-144.6375</x>
+        <y>0.8</y>
+        <z>-166.5232</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>18.9999771</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>10</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-164.62</x>
-        <y>1</y>
-        <z>-191.099976</z>
+        <x>-144.6375</x>
+        <y>0.8</y>
+        <z>-166.5232</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>18.9999771</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>14</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-152.62</x>
-        <y>1</y>
-        <z>-196.099976</z>
+        <x>-113.667587</x>
+        <y>0.8</y>
+        <z>-174.105865</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>151.061783</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>14</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-127.619995</x>
-        <y>1</y>
-        <z>-193.099976</z>
+        <x>-113.667587</x>
+        <y>0.8</y>
+        <z>-174.105865</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>151.061783</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>20</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-161.62</x>
-        <y>1</y>
-        <z>-173.099976</z>
+        <x>-111.628914</x>
+        <y>0.799999833</y>
+        <z>-85.66629</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>236.581482</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>22</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-142.62</x>
-        <y>1</y>
-        <z>-204.099976</z>
+        <x>-111.24131</x>
+        <y>0.799999237</y>
+        <z>-177.3673</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>29.131546</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
+      <ID>22</ID>
+      <originZone>27</originZone>
       <state>0</state>
       <position>
-        <x>-144.62</x>
-        <y>1</y>
-        <z>-213.099976</z>
+        <x>-111.24131</x>
+        <y>0.799999237</y>
+        <z>-177.3673</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>29.131546</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>4</ID>
+      <originZone>9</originZone>
+      <state>2</state>
       <position>
-        <x>-169.62</x>
-        <y>1</y>
-        <z>-199.099976</z>
+        <x>-58.3153954</x>
+        <y>0.800008655</y>
+        <z>-138.405869</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>337.886139</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>2</ID>
+      <originZone>25</originZone>
+      <state>1</state>
       <position>
-        <x>-159.62</x>
-        <y>1</y>
-        <z>-209.099976</z>
+        <x>-67.1965256</x>
+        <y>0.799999237</y>
+        <z>-186.685669</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>115.202644</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>7</ID>
+      <originZone>23</originZone>
+      <state>2</state>
       <position>
-        <x>-161.62</x>
-        <y>1</y>
-        <z>-171.099976</z>
+        <x>-71.9497</x>
+        <y>0.8</y>
+        <z>-49.7285347</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
+        <y>1.869982</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>10</ID>
+      <originZone>29</originZone>
+      <state>2</state>
       <position>
-        <x>-116.619995</x>
-        <y>1</y>
-        <z>-211.099976</z>
+        <x>-75.75419</x>
+        <y>0.7999995</y>
+        <z>-192.565353</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-135.62</x>
-        <y>1</y>
-        <z>-218.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-162.62</x>
-        <y>1</y>
-        <z>-220.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-144.62</x>
-        <y>1</y>
-        <z>-208.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-161.62</x>
-        <y>1</y>
-        <z>-227.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-143.62</x>
-        <y>1</y>
-        <z>-194.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-165.62</x>
-        <y>1</y>
-        <z>-222.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-139.62</x>
-        <y>1</y>
-        <z>-172.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-121.619995</x>
-        <y>1</y>
-        <z>-209.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-121.619995</x>
-        <y>1</y>
-        <z>-225.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-132.62</x>
-        <y>1</y>
-        <z>-169.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-139.62</x>
-        <y>1</y>
-        <z>-188.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-150.62</x>
-        <y>1</y>
-        <z>-189.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-170.62</x>
-        <y>1</y>
-        <z>-184.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-156.62</x>
-        <y>1</y>
-        <z>-214.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-169.62</x>
-        <y>1</y>
-        <z>-189.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-115.619995</x>
-        <y>1</y>
-        <z>-214.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-133.62</x>
-        <y>1</y>
-        <z>-174.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-148.62</x>
-        <y>1</y>
-        <z>-212.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-150.62</x>
-        <y>1</y>
-        <z>-168.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-155.62</x>
-        <y>1</y>
-        <z>-183.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
-      <position>
-        <x>-135.62</x>
-        <y>1</y>
-        <z>-190.099976</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0</y>
+        <y>258.110443</y>
         <z>0</z>
       </rotation>
     </AIEntry>

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4921583415187942}
   - component: {fileID: 33846732233810802}
   - component: {fileID: 23260398510747304}
+  - component: {fileID: 65836303600330350}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -38,6 +39,7 @@ GameObject:
   - component: {fileID: 4115777010922010}
   - component: {fileID: 33876354941575018}
   - component: {fileID: 23143964326576528}
+  - component: {fileID: 65674383402515198}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -70,6 +72,7 @@ GameObject:
   - component: {fileID: 4783211152153496}
   - component: {fileID: 33922493182968900}
   - component: {fileID: 23358164227665254}
+  - component: {fileID: 65160065908609212}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -258,3 +261,39 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1741860269243520}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65160065908609212
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741860269243520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1.0000005}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65674383402515198
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059625455195630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 1, z: 1.0000002}
+  m_Center: {x: 0.000000007450581, y: 0, z: 0}
+--- !u!65 &65836303600330350
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1031163465142208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.000000059604645, y: 0, z: 0.00000011920929}

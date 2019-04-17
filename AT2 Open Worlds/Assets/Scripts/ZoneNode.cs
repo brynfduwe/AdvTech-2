@@ -1,12 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor.SceneManagement;
-
-using System.Xml;
-using System.Xml.Serialization;
 using System.IO;
-using UnityEngine.SceneManagement;
+using System.Xml.Serialization;
+using UnityEngine;
 
 public class ZoneNode : MonoBehaviour
 {
@@ -20,12 +16,18 @@ public class ZoneNode : MonoBehaviour
     public bool loaded = false;
     bool aiLoaded;
 
-    public int AICount;
 
     // Use this for initialization
     void Start ()
     {
-        AICount = 50;
+        //get list count;
+        XmlSerializer load = new XmlSerializer(typeof(AIdatabase));
+        FileStream stream = new FileStream(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml", FileMode.Open);
+        Debug.Log(stream.Name.ToString());
+        AiDb = load.Deserialize(stream) as AIdatabase;
+        stream.Close();
+
+        AiDb.AIList.Clear();
     }
 
     // Update is called once per frame
@@ -81,8 +83,8 @@ public class ZoneNode : MonoBehaviour
     void Load()
     {
 
-     //   UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
-    //    UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML");
+        UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
+        //UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML");
 
         AIObjectList.Clear();
         AiDb.AIList.Clear();
@@ -97,17 +99,30 @@ public class ZoneNode : MonoBehaviour
 
         // //loads objects
 
-        int i = 0;
+        AIdatabase loadedAI = new AIdatabase();
+
+        int i = 0;     
         foreach (var ai in AiDb.AIList)
         {
-            if (i < 30)
+            bool fail = false;
+            foreach (var aicheck in loadedAI.AIList)
             {
+                if (ai.ID == aicheck.ID && ai.originZone == aicheck.originZone)
+                {
+                    fail = true;
+                }
+            }
+
+            if (!fail)
+            {
+                loadedAI.AIList.Add(ai);
+
                 GameObject gobj = Resources.Load<GameObject>("AI");
                 gobj.transform.position = new Vector3(ai.position.x, 0.8f, ai.position.z);
                 gobj.transform.eulerAngles = ai.rotation;
                 GameObject inst = Instantiate(gobj);
                 AIObjectList.Add(inst.transform);
-                inst.GetComponent<AI>().SetStateOnSpawn(ai.state);
+                inst.GetComponent<AI>().SetStateOnSpawn(ai.state, ai.ID, ai.originZone);
 
                 inst.GetComponent<AI>().nodes = transform.parent.GetComponentsInChildren<Transform>();
                 inst.GetComponent<AI>().FindNearestNode();
@@ -116,7 +131,8 @@ public class ZoneNode : MonoBehaviour
             }
         }
 
-        AICount = AIObjectList.Count;
+        Debug.Log(i + " -VS- " + AiDb.AIList.Count);
+
     }
 
     void Save()
@@ -125,14 +141,12 @@ public class ZoneNode : MonoBehaviour
         {
             Debug.Log("Saved Zone " + loadZone.ToString());
 
-//            File.Delete(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
+           // File.Delete(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
             UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
 
             AiDb.AIList.Clear();
             AiDb = new AIdatabase();
             AIdatabase x = new AIdatabase();
-
-            AICount = 0;
 
             List<Transform> tempList = new List<Transform>();
 
@@ -146,24 +160,17 @@ public class ZoneNode : MonoBehaviour
 
             for (int i = 0; i < tempList.Count; i++)
             {
-
                 if (tempList[i] != null)
                 {
                     AIEntry ax = new AIEntry();
                     ax.position = tempList[i].position;
                     ax.rotation = tempList[i].eulerAngles;
-                    ax.state = (int)tempList[i].GetComponent<AI>().CurrentState;
+                    ax.state = (int) tempList[i].GetComponent<AI>().CurrentState;
+                    ax.ID = tempList[i].GetComponent<AI>().id;
+                    ax.originZone = tempList[i].GetComponent<AI>().originZone;
 
                     x.AIList.Add(ax);
-                }
-
-                if ((i > 0 && AIObjectList[i].position == AIObjectList[0].position) && (AIObjectList[i] != null && AIObjectList[0] != null))
-                {
-                    break;
-                }
-
-
-                AICount++;
+                }              
             }
 
             //saves the xml to file
@@ -177,27 +184,38 @@ public class ZoneNode : MonoBehaviour
             //  Debug.Log(AiDb.AIList.Count.ToString());
         }
 
-     //   UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
-     //   UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML");
+        //UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
+        //UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML");
 
         Unload();      
     }
 
     void SaveAdd(Transform ai)
     {
-        //Debug.Log("Additional Save " + loadZone.ToString());
+        //AiDb.AIList.Clear();
+        // loads from xml file
+        XmlSerializer load = new XmlSerializer(typeof(AIdatabase));
+        FileStream streaml = new FileStream(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml", FileMode.Open);
+        Debug.Log(streaml.Name.ToString());
+        AiDb = load.Deserialize(streaml) as AIdatabase;
+        streaml.Close();
 
-        //AIEntry ax = new AIEntry();
-        //ax.position = ai.position;
-        //ax.rotation = ai.eulerAngles;
+        Debug.Log("Additional Save " + loadZone.ToString());
 
-        //AiDb.AIList.Add(ax);
+        AIEntry ax = new AIEntry();
+        ax.position = ai.position;
+        ax.rotation = ai.eulerAngles;
+        ax.state = (int) ai.GetComponent<AI>().CurrentState;
+        ax.ID = ai.GetComponent<AI>().id;
+        ax.originZone = ai.GetComponent<AI>().originZone;
 
-        ////saves the xml to file
-        //XmlSerializer save = new XmlSerializer(typeof(AIdatabase));
-        //FileStream stream = new FileStream(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml", FileMode.Create);
-        //save.Serialize(stream, AiDb);
-        //stream.Close();
+        AiDb.AIList.Add(ax);
+
+        //saves the xml to file
+        XmlSerializer save = new XmlSerializer(typeof(AIdatabase));
+        FileStream stream = new FileStream(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml", FileMode.Create);
+        save.Serialize(stream, AiDb);
+        stream.Close();
     }
 
 
@@ -246,10 +264,16 @@ public class ZoneNode : MonoBehaviour
         }
 
         ////uncomment this and comment the rest of Start to create a new XML
+        //int i = 0;
         //foreach (var ai in AiDb.AIList)
         //{
-        //    ai.position = transform.position + new Vector3(Random.Range(-30, 30), 0, Random.Range(-30, 30));
+        //    ai.position = transform.position + new Vector3(Random.Range(-30, 30 + i), 0, Random.Range(-30 + i, 30));
         //    ai.state = (int)AI.State.Idle;
+        //    ai.ID = i;
+        //    ai.originZone = loadZone;
+
+        //    i++;
+
         //}
         //XmlSerializer save = new XmlSerializer(typeof(AIdatabase));
         //FileStream stream = new FileStream(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml", FileMode.Create);
@@ -260,14 +284,14 @@ public class ZoneNode : MonoBehaviour
 
     public void AddToAIList(Transform obj)
     {
-        AIObjectList.Add(obj);
-
-      //  SaveAdd(obj);
-
         if (!loaded)
         {
-            Save();
+            SaveAdd(obj);
             Destroy(obj.gameObject);
+        }
+        else
+        {
+            AIObjectList.Add(obj);
         }
     }
 
@@ -276,7 +300,7 @@ public class ZoneNode : MonoBehaviour
     public class AIEntry
     {
         public int ID;
-        public int zone;
+        public int originZone;
         public int state;
         public Vector3 position;
         public Vector3 rotation;

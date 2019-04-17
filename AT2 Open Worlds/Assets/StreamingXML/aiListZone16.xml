@@ -2,32 +2,47 @@
 <AIdatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <AIList>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>14</ID>
+      <originZone>21</originZone>
+      <state>2</state>
       <position>
-        <x>-104.704636</x>
-        <y>0.7999994</y>
-        <z>49.22662</z>
+        <x>-79.2021942</x>
+        <y>0.8</y>
+        <z>55.2947655</z>
+      </position>
+      <rotation>
+        <x>306.932465</x>
+        <y>216.90625</y>
+        <z>230.640457</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>14</ID>
+      <originZone>23</originZone>
+      <state>2</state>
+      <position>
+        <x>-75.40842</x>
+        <y>0.8000001</y>
+        <z>53.67011</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>350.716278</y>
+        <y>196.622421</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
-      <zone>0</zone>
-      <state>0</state>
+      <ID>9</ID>
+      <originZone>4</originZone>
+      <state>2</state>
       <position>
-        <x>-104.704636</x>
-        <y>0.7999994</y>
-        <z>49.22662</z>
+        <x>-72.6643753</x>
+        <y>0.8</y>
+        <z>52.57034</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>350.716278</y>
+        <y>141.414337</y>
         <z>0</z>
       </rotation>
     </AIEntry>

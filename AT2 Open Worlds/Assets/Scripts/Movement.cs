@@ -58,11 +58,19 @@ public class Movement : MonoBehaviour
 	    {
 	        transform.Rotate(-Vector3.up * (Time.deltaTime * rotateSpeed));
         }
+    }
 
-        //jump
-	    if (Input.GetKeyDown(KeyCode.Space))
-	    {
-	        GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+    public void Attack()
+    {
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, 10);
+
+        foreach (var i in hitColliders)
+        {
+            if (i.GetComponent<AI>() != null)
+            {
+                i.GetComponent<AI>().setDead();
+            }
         }
     }
 }
