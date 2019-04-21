@@ -106,5 +106,65 @@
         <z>0</z>
       </rotation>
     </AIEntry>
+    <AIEntry>
+      <ID>1</ID>
+      <originZone>16</originZone>
+      <state>1</state>
+      <position>
+        <x>50.81979</x>
+        <y>0.8</y>
+        <z>124.556221</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>110.410362</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>1</ID>
+      <originZone>16</originZone>
+      <state>1</state>
+      <position>
+        <x>50.81979</x>
+        <y>0.8</y>
+        <z>124.556221</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>110.410362</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>1</ID>
+      <originZone>16</originZone>
+      <state>1</state>
+      <position>
+        <x>50.81979</x>
+        <y>0.8</y>
+        <z>124.556221</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>110.410362</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>0</ID>
+      <originZone>18</originZone>
+      <state>2</state>
+      <position>
+        <x>-6.45322752</x>
+        <y>0.8</y>
+        <z>122.367287</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>300.563446</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
   </AIList>
 </AIdatabase>

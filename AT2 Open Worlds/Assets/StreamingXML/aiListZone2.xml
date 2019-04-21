@@ -301,5 +301,50 @@
         <z>0</z>
       </rotation>
     </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>-27.3031635</x>
+        <y>0.8</y>
+        <z>243.800888</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>283.51178</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>-27.3031635</x>
+        <y>0.8</y>
+        <z>243.800888</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>283.51178</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>-27.3031635</x>
+        <y>0.8</y>
+        <z>243.800888</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>283.51178</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
   </AIList>
 </AIdatabase>

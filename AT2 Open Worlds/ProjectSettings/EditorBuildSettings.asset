@@ -5,117 +5,99 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Old Trash/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Level.unity
-    guid: ce66d654341ff13438a9129b954bd58d
   - enabled: 0
     path: 
-    guid: 050789f9210f2484f980e5cf9ddd4bb3
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: 82749406d0b17f943a2b00d9409965bd
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: bd691f6f17abb9a40afed61a9b4b4145
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: f3166df0ca8ebff47b80cea1a4276685
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: 3f40d9b221c297541b2b76d2414370af
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: fdf308e42515ad845b98e665d275330c
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: 401ddd350747190478921f086653f3c6
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: 09803ac7ab62b434a86eba61ec1e3ab5
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: 6e5503a87347562449d9e38b9de580a7
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
-    guid: ef6f218e3a62c3543946fe7da597ca04
-  - enabled: 1
-    path: Assets/Zone/Zone 2.unity
-    guid: cad8b120b64f5914791ce3c21b92ee3b
-  - enabled: 1
-    path: Assets/Zone/Zone 15.unity
-    guid: 401d8cc04c333a2498dfebbf2944381e
-  - enabled: 1
-    path: Assets/Zone/Zone 19.unity
-    guid: 758ec2211c032ed4f89045a99911e86d
-  - enabled: 1
-    path: Assets/Zone/Zone 12.unity
-    guid: b8798a2380e69c342b909461d0f3ed26
-  - enabled: 1
-    path: Assets/Zone/Zone 24.unity
-    guid: 646eafd3a3fd68e40952ff0960e0d787
-  - enabled: 1
-    path: Assets/Zone/Zone 25.unity
-    guid: 0ec0c17403856a64abc0ae10f9acdff5
-  - enabled: 1
-    path: Assets/Zone/Zone 16.unity
-    guid: 78aaf774e55693740bca5457ef232663
-  - enabled: 1
-    path: Assets/Zone/Zone 22.unity
-    guid: cb256e844fbb6224896f0dd9654cad2e
-  - enabled: 1
-    path: Assets/Zone/Zone 18.unity
-    guid: 50ba14b4fa4d9c94b81e97fccd38dc63
-  - enabled: 1
-    path: Assets/Zone/Zone 10.unity
-    guid: 73e92b55aa04ea04e9a60c428a8a9e02
-  - enabled: 1
-    path: Assets/Zone/Zone 21.unity
-    guid: 176dffc5b58f82142ae27b5a3262fd27
-  - enabled: 1
-    path: Assets/Zone/Zone 17.unity
-    guid: fd8c66b65f439d44285da85d742f0ed7
-  - enabled: 1
-    path: Assets/Zone/Zone 1.unity
-    guid: 07bdc7f6a52da894d8645a05929d3ee3
-  - enabled: 1
-    path: Assets/Zone/Zone 20.unity
-    guid: 075c85b7c9c2d5d4c804dae419040910
-  - enabled: 1
-    path: Assets/Zone/Zone 14.unity
-    guid: 70804c1989d8e594b8bfef0aaf9f8ad8
-  - enabled: 1
-    path: Assets/Zone/Zone 4.unity
-    guid: 1997c12904147da41b15a8290bc26fe0
-  - enabled: 1
-    path: Assets/Zone/Zone 9.unity
-    guid: 30cf2b29f324c774297a7303e8a26783
-  - enabled: 1
-    path: Assets/Zone/Zone 7.unity
-    guid: b2c9e2ba17e47974ebc7c377675ce54c
-  - enabled: 1
-    path: Assets/Zone/Zone 13.unity
-    guid: a191740b46f9b804981b67914978019c
-  - enabled: 1
-    path: Assets/Zone/Zone 8.unity
-    guid: 6afa0a1b69099f64c80076db3baa5249
-  - enabled: 1
-    path: Assets/Zone/Zone 23.unity
-    guid: 302daeecc4723ae419000a6a697a6bdb
-  - enabled: 1
-    path: Assets/Zone/Zone 6.unity
-    guid: b58313fc16a596b4c96d8bbd3ef910c0
-  - enabled: 1
-    path: Assets/Zone/Zone 11.unity
-    guid: 3167175e6106a174f9700122ef4b0d4e
-  - enabled: 1
-    path: Assets/Zone/Zone 5.unity
-    guid: 51f1308e9e4a89e4b830fcb319117890
-  - enabled: 1
-    path: Assets/Zone/Zone 3.unity
-    guid: 8f0bba8ee5c24ea4ca0f7201bbdd6f96
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/LevelHex.unity
     guid: fab4fb9befb6e394b893d0b6a5223fa7

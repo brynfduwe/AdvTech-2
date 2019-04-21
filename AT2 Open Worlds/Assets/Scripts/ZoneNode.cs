@@ -83,7 +83,7 @@ public class ZoneNode : MonoBehaviour
     void Load()
     {
 
-        UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
+    //    UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
         //UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML");
 
         AIObjectList.Clear();
@@ -142,7 +142,7 @@ public class ZoneNode : MonoBehaviour
             Debug.Log("Saved Zone " + loadZone.ToString());
 
            // File.Delete(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
-            UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
+         //   UnityEditor.AssetDatabase.ImportAsset(Application.dataPath + "/StreamingXML/aiListZone" + loadZone.ToString() + ".xml");
 
             AiDb.AIList.Clear();
             AiDb = new AIdatabase();
