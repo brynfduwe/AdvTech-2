@@ -211,5 +211,20 @@
         <z>0</z>
       </rotation>
     </AIEntry>
+    <AIEntry>
+      <ID>9</ID>
+      <originZone>20</originZone>
+      <state>2</state>
+      <position>
+        <x>58.2884865</x>
+        <y>0.8</y>
+        <z>20.53374</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>133.180527</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
   </AIList>
 </AIdatabase>

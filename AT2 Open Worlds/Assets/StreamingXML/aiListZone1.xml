@@ -6,13 +6,13 @@
       <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>36.64165</x>
-        <y>0.8000001</y>
-        <z>250.162445</z>
+        <x>41.9217033</x>
+        <y>0.8</y>
+        <z>249.190491</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>328.266083</y>
+        <y>101.560371</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -21,13 +21,28 @@
       <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>36.64165</x>
+        <x>41.9217033</x>
+        <y>0.8</y>
+        <z>249.190491</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>101.560371</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>10</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>9.309153</x>
         <y>0.8000001</y>
-        <z>250.162445</z>
+        <z>254.757538</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>328.266083</y>
+        <y>318.959</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -36,28 +51,283 @@
       <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>44.3160858</x>
-        <y>0.8</y>
-        <z>237.881882</z>
+        <x>9.309153</x>
+        <y>0.8000001</y>
+        <z>254.757538</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>39.6010246</y>
+        <y>318.959</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>10</ID>
-      <originZone>7</originZone>
+      <ID>0</ID>
+      <originZone>14</originZone>
       <state>0</state>
       <position>
-        <x>44.3160858</x>
+        <x>26.6265965</x>
         <y>0.8</y>
-        <z>237.881882</z>
+        <z>279.8606</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>39.6010246</y>
+        <y>292.179565</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>0</ID>
+      <originZone>14</originZone>
+      <state>0</state>
+      <position>
+        <x>26.6265965</x>
+        <y>0.8</y>
+        <z>279.8606</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>292.179565</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>16</ID>
+      <originZone>14</originZone>
+      <state>0</state>
+      <position>
+        <x>26.7633839</x>
+        <y>0.8000001</y>
+        <z>249.743332</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>296.043274</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>16</ID>
+      <originZone>14</originZone>
+      <state>0</state>
+      <position>
+        <x>26.7633839</x>
+        <y>0.8000001</y>
+        <z>249.743332</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>296.043274</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>23</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>49.74375</x>
+        <y>0.8000001</y>
+        <z>237.71814</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>59.75911</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>23</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>49.74375</x>
+        <y>0.8000001</y>
+        <z>237.71814</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>59.75911</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>4</ID>
+      <originZone>20</originZone>
+      <state>0</state>
+      <position>
+        <x>41.33386</x>
+        <y>0.8000001</y>
+        <z>248.4331</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>126.681557</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>4</ID>
+      <originZone>20</originZone>
+      <state>0</state>
+      <position>
+        <x>41.33386</x>
+        <y>0.8000001</y>
+        <z>248.4331</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>126.681557</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>21</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>40.4807434</x>
+        <y>0.8000001</y>
+        <z>246.725021</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>224.838211</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>21</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>40.4807434</x>
+        <y>0.8000001</y>
+        <z>246.725021</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>224.838211</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>18</originZone>
+      <state>0</state>
+      <position>
+        <x>62.91094</x>
+        <y>0.8000001</y>
+        <z>277.548553</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>70.48612</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>18</originZone>
+      <state>0</state>
+      <position>
+        <x>62.91094</x>
+        <y>0.8000001</y>
+        <z>277.548553</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>70.48612</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>8</ID>
+      <originZone>4</originZone>
+      <state>0</state>
+      <position>
+        <x>11.3910522</x>
+        <y>0.8</y>
+        <z>276.613556</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>227.614822</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>8</ID>
+      <originZone>4</originZone>
+      <state>0</state>
+      <position>
+        <x>11.3910522</x>
+        <y>0.8</y>
+        <z>276.613556</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>227.614822</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>13</ID>
+      <originZone>14</originZone>
+      <state>0</state>
+      <position>
+        <x>-7.13466549</x>
+        <y>0.8000001</y>
+        <z>248.076584</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>15.63064</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>13</ID>
+      <originZone>14</originZone>
+      <state>0</state>
+      <position>
+        <x>-7.13466549</x>
+        <y>0.8000001</y>
+        <z>248.076584</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>15.63064</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>20</ID>
+      <originZone>21</originZone>
+      <state>0</state>
+      <position>
+        <x>25.9304371</x>
+        <y>0.8</y>
+        <z>249.500473</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>217.992874</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>20</ID>
+      <originZone>21</originZone>
+      <state>0</state>
+      <position>
+        <x>25.9304371</x>
+        <y>0.8</y>
+        <z>249.500473</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>217.992874</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -66,778 +336,193 @@
       <originZone>14</originZone>
       <state>0</state>
       <position>
-        <x>-19.8472061</x>
-        <y>0.8000001</y>
-        <z>252.389435</z>
+        <x>18.31938</x>
+        <y>0.7999995</y>
+        <z>241.5742</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>297.98053</y>
+        <y>238.042938</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>0</ID>
+      <ID>2</ID>
       <originZone>14</originZone>
       <state>0</state>
       <position>
-        <x>26.107893</x>
-        <y>0.8</y>
-        <z>278.2399</z>
+        <x>18.31938</x>
+        <y>0.7999995</y>
+        <z>241.5742</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>10.9887238</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>0</ID>
-      <originZone>14</originZone>
-      <state>0</state>
-      <position>
-        <x>26.107893</x>
-        <y>0.8</y>
-        <z>278.2399</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>10.9887238</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>14</originZone>
-      <state>0</state>
-      <position>
-        <x>37.2216949</x>
-        <y>0.8</y>
-        <z>232.487823</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>207.64888</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>14</originZone>
-      <state>0</state>
-      <position>
-        <x>37.2216949</x>
-        <y>0.8</y>
-        <z>232.487823</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>207.64888</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>23</ID>
-      <originZone>7</originZone>
-      <state>0</state>
-      <position>
-        <x>46.1428757</x>
-        <y>0.8</y>
-        <z>239.944733</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0.0340717733</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>23</ID>
-      <originZone>7</originZone>
-      <state>0</state>
-      <position>
-        <x>46.1428757</x>
-        <y>0.8</y>
-        <z>239.944733</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>0.0340717733</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>6</originZone>
-      <state>0</state>
-      <position>
-        <x>46.9334755</x>
-        <y>0.8</y>
-        <z>237.729111</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>142.61998</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>6</originZone>
-      <state>0</state>
-      <position>
-        <x>46.9334755</x>
-        <y>0.8</y>
-        <z>237.729111</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>142.61998</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>20</ID>
-      <originZone>21</originZone>
-      <state>0</state>
-      <position>
-        <x>-7.707379</x>
-        <y>0.8000001</y>
-        <z>239.830627</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>202.716614</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>20</ID>
-      <originZone>21</originZone>
-      <state>0</state>
-      <position>
-        <x>-7.707379</x>
-        <y>0.8000001</y>
-        <z>239.830627</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>202.716614</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>4</ID>
-      <originZone>20</originZone>
-      <state>0</state>
-      <position>
-        <x>15.7265158</x>
-        <y>0.8000001</y>
-        <z>249.512314</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>323.702332</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>4</ID>
-      <originZone>20</originZone>
-      <state>0</state>
-      <position>
-        <x>15.7265158</x>
-        <y>0.8000001</y>
-        <z>249.512314</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>323.702332</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>21</ID>
-      <originZone>6</originZone>
-      <state>0</state>
-      <position>
-        <x>19.7555141</x>
-        <y>0.8</y>
-        <z>239.826477</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>190.805466</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>21</ID>
-      <originZone>6</originZone>
-      <state>0</state>
-      <position>
-        <x>19.7555141</x>
-        <y>0.8</y>
-        <z>239.826477</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>190.805466</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>7</ID>
-      <originZone>18</originZone>
-      <state>0</state>
-      <position>
-        <x>32.6017227</x>
-        <y>0.799999952</y>
-        <z>265.210571</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>142.1015</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>7</ID>
-      <originZone>18</originZone>
-      <state>0</state>
-      <position>
-        <x>32.6017227</x>
-        <y>0.799999952</y>
-        <z>265.210571</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>142.1015</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>18</ID>
-      <originZone>14</originZone>
-      <state>0</state>
-      <position>
-        <x>61.0795631</x>
-        <y>0.8</y>
-        <z>248.208969</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>163.487137</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>18</ID>
-      <originZone>14</originZone>
-      <state>0</state>
-      <position>
-        <x>61.0795631</x>
-        <y>0.8</y>
-        <z>248.208969</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>163.487137</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>15</ID>
-      <originZone>7</originZone>
-      <state>2</state>
-      <position>
-        <x>10.9557219</x>
-        <y>0.8000001</y>
-        <z>221.3533</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>236.074524</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>24</ID>
-      <originZone>11</originZone>
-      <state>0</state>
-      <position>
-        <x>76.86452</x>
-        <y>0.8000001</y>
-        <z>247.465088</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>334.16452</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>24</ID>
-      <originZone>11</originZone>
-      <state>0</state>
-      <position>
-        <x>76.86452</x>
-        <y>0.8000001</y>
-        <z>247.465088</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>334.16452</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>21</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>3.72779131</x>
-        <y>0.8000001</y>
-        <z>222.732162</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>1.37874734</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>21</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>3.72779131</x>
-        <y>0.8000001</y>
-        <z>222.732162</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>1.37874734</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>78.46442</x>
-        <y>0.8</y>
-        <z>239.030731</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>248.576111</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>16</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>78.46442</x>
-        <y>0.8</y>
-        <z>239.030731</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>248.576111</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>18</ID>
-      <originZone>7</originZone>
-      <state>2</state>
-      <position>
-        <x>14.1365957</x>
-        <y>0.799999952</y>
-        <z>254.892456</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>273.066925</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>18</ID>
-      <originZone>7</originZone>
-      <state>2</state>
-      <position>
-        <x>14.1365957</x>
-        <y>0.799999952</y>
-        <z>254.892456</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>273.066925</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>19</ID>
-      <originZone>9</originZone>
-      <state>2</state>
-      <position>
-        <x>-0.6756697</x>
-        <y>0.80000037</y>
-        <z>222.685135</z>
-      </position>
-      <rotation>
-        <x>0.000153329282</x>
-        <y>272.335358</y>
-        <z>9.98561855E-09</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>19</ID>
-      <originZone>9</originZone>
-      <state>2</state>
-      <position>
-        <x>-0.6756697</x>
-        <y>0.80000037</y>
-        <z>222.685135</z>
-      </position>
-      <rotation>
-        <x>0.000153329282</x>
-        <y>272.335358</y>
-        <z>9.98561855E-09</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>19</ID>
-      <originZone>7</originZone>
-      <state>1</state>
-      <position>
-        <x>11.7522831</x>
-        <y>0.8000001</y>
-        <z>248.157181</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>39.8991966</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>19</ID>
-      <originZone>7</originZone>
-      <state>1</state>
-      <position>
-        <x>11.7522831</x>
-        <y>0.8000001</y>
-        <z>248.157181</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>39.8991966</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>1</ID>
-      <originZone>5</originZone>
-      <state>2</state>
-      <position>
-        <x>8.578342</x>
-        <y>0.800004244</y>
-        <z>235.414474</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>67.46593</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>1</ID>
-      <originZone>5</originZone>
-      <state>2</state>
-      <position>
-        <x>8.578342</x>
-        <y>0.800004244</y>
-        <z>235.414474</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>67.46593</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>20</ID>
-      <originZone>6</originZone>
-      <state>1</state>
-      <position>
-        <x>-3.349244</x>
-        <y>0.7999998</y>
-        <z>254.130615</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>212.7135</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>20</ID>
-      <originZone>6</originZone>
-      <state>1</state>
-      <position>
-        <x>-3.349244</x>
-        <y>0.7999998</y>
-        <z>254.130615</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>212.7135</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>1</ID>
-      <originZone>20</originZone>
-      <state>2</state>
-      <position>
-        <x>11.2660561</x>
-        <y>0.799999833</y>
-        <z>243.509827</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>280.9586</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>1</ID>
-      <originZone>20</originZone>
-      <state>2</state>
-      <position>
-        <x>11.2660561</x>
-        <y>0.799999833</y>
-        <z>243.509827</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>280.9586</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>8</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>-0.6407877</x>
-        <y>0.8</y>
-        <z>278.52475</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>66.28555</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>8</ID>
-      <originZone>4</originZone>
-      <state>0</state>
-      <position>
-        <x>-0.6407877</x>
-        <y>0.8</y>
-        <z>278.52475</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>66.28555</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>24</ID>
-      <originZone>4</originZone>
-      <state>1</state>
-      <position>
-        <x>-7.27018929</x>
-        <y>0.8000002</y>
-        <z>217.63028</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>210.06337</y>
+        <y>238.042938</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
       <ID>6</ID>
-      <originZone>16</originZone>
-      <state>2</state>
+      <originZone>6</originZone>
+      <state>0</state>
       <position>
-        <x>-23.7378178</x>
-        <y>0.8000001</y>
-        <z>236.913239</z>
+        <x>5.80141449</x>
+        <y>0.8</y>
+        <z>235.74762</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>265.087433</y>
+        <y>177.363022</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>3</ID>
+      <ID>6</ID>
       <originZone>6</originZone>
-      <state>1</state>
+      <state>0</state>
       <position>
-        <x>-2.33332729</x>
-        <y>0.7999999</y>
-        <z>237.147934</z>
+        <x>5.80141449</x>
+        <y>0.8</y>
+        <z>235.74762</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>45.3236961</y>
+        <y>177.363022</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>3</ID>
-      <originZone>6</originZone>
-      <state>1</state>
+      <ID>1</ID>
+      <originZone>14</originZone>
+      <state>0</state>
       <position>
-        <x>-2.33332729</x>
-        <y>0.7999999</y>
-        <z>237.147934</z>
+        <x>27.7806168</x>
+        <y>0.8</y>
+        <z>196.771484</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>45.3236961</y>
+        <y>55.80109</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>2</ID>
+      <originZone>4</originZone>
+      <state>0</state>
+      <position>
+        <x>23.5962753</x>
+        <y>0.8</y>
+        <z>247.443222</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>42.2256775</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>2</ID>
+      <originZone>4</originZone>
+      <state>0</state>
+      <position>
+        <x>23.5962753</x>
+        <y>0.8</y>
+        <z>247.443222</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>42.2256775</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
       <ID>0</ID>
-      <originZone>1</originZone>
+      <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>3.54122114</x>
-        <y>0.800000131</y>
-        <z>256.532135</z>
+        <x>25.0605011</x>
+        <y>0.8</y>
+        <z>250.298553</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>359.034546</y>
+        <y>28.3011951</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
       <ID>0</ID>
-      <originZone>1</originZone>
-      <state>0</state>
-      <position>
-        <x>3.54122114</x>
-        <y>0.800000131</y>
-        <z>256.532135</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>359.034546</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>15</ID>
-      <originZone>7</originZone>
-      <state>2</state>
-      <position>
-        <x>10.9557219</x>
-        <y>0.8000001</y>
-        <z>221.3533</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>236.074524</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>17</ID>
       <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>117.201561</x>
+        <x>25.0605011</x>
         <y>0.8</y>
-        <z>279.808716</z>
+        <z>250.298553</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>327.845459</y>
+        <y>28.3011951</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>17</ID>
+      <ID>19</ID>
       <originZone>7</originZone>
       <state>0</state>
       <position>
-        <x>117.201561</x>
-        <y>0.8</y>
-        <z>279.808716</z>
+        <x>-10.0274439</x>
+        <y>0.799999356</y>
+        <z>211.5097</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>327.845459</y>
-        <z>0</z>
-      </rotation>
-    </AIEntry>
-    <AIEntry>
-      <ID>18</ID>
-      <originZone>7</originZone>
-      <state>2</state>
-      <position>
-        <x>12.3595572</x>
-        <y>0.80000025</y>
-        <z>218.677933</z>
-      </position>
-      <rotation>
-        <x>0</x>
-        <y>250.129852</y>
+        <y>240.857544</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
       <ID>21</ID>
       <originZone>4</originZone>
-      <state>1</state>
+      <state>0</state>
       <position>
-        <x>5.21987438</x>
-        <y>0.8000001</y>
-        <z>222.454758</z>
+        <x>-10.5973406</x>
+        <y>0.8</y>
+        <z>220.82489</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>255.931717</y>
+        <y>25.5714474</y>
         <z>0</z>
       </rotation>
     </AIEntry>
     <AIEntry>
-      <ID>19</ID>
-      <originZone>9</originZone>
-      <state>2</state>
+      <ID>1</ID>
+      <originZone>7</originZone>
+      <state>0</state>
       <position>
-        <x>22.0933475</x>
-        <y>0.7999992</y>
-        <z>210.587219</z>
+        <x>27.451582</x>
+        <y>0.80000025</y>
+        <z>244.189941</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>327.1406</y>
+        <y>87.01384</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>1</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>27.451582</x>
+        <y>0.80000025</y>
+        <z>244.189941</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>87.01384</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -846,13 +531,238 @@
       <originZone>20</originZone>
       <state>2</state>
       <position>
-        <x>-6.717442</x>
-        <y>0.8000002</y>
-        <z>250.810623</z>
+        <x>-38.18396</x>
+        <y>0.799999952</y>
+        <z>219.4642</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>174.877762</y>
+        <y>192.994858</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>16.52669</x>
+        <y>0.8</y>
+        <z>278.271362</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>294.3104</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>16.52669</x>
+        <y>0.8</y>
+        <z>278.271362</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>294.3104</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>12</ID>
+      <originZone>26</originZone>
+      <state>0</state>
+      <position>
+        <x>47.9966736</x>
+        <y>0.8</y>
+        <z>239.220474</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>88.77674</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>12</ID>
+      <originZone>26</originZone>
+      <state>0</state>
+      <position>
+        <x>47.9966736</x>
+        <y>0.8</y>
+        <z>239.220474</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>88.77674</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>-1.61612284</x>
+        <y>0.8</y>
+        <z>242.6693</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>336.531464</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>7</ID>
+      <originZone>7</originZone>
+      <state>0</state>
+      <position>
+        <x>-1.61612284</x>
+        <y>0.8</y>
+        <z>242.6693</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>336.531464</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>9</ID>
+      <originZone>3</originZone>
+      <state>0</state>
+      <position>
+        <x>42.3024368</x>
+        <y>0.8</y>
+        <z>247.922165</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>79.35718</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>9</ID>
+      <originZone>3</originZone>
+      <state>0</state>
+      <position>
+        <x>42.3024368</x>
+        <y>0.8</y>
+        <z>247.922165</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>79.35718</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>18</ID>
+      <originZone>7</originZone>
+      <state>2</state>
+      <position>
+        <x>-27.2820587</x>
+        <y>0.8000067</y>
+        <z>203.179489</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>317.128143</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>19</ID>
+      <originZone>9</originZone>
+      <state>2</state>
+      <position>
+        <x>0.7353381</x>
+        <y>0.799999952</y>
+        <z>214.482285</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>308.225616</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>19</ID>
+      <originZone>9</originZone>
+      <state>2</state>
+      <position>
+        <x>0.7353381</x>
+        <y>0.799999952</y>
+        <z>214.482285</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>308.225616</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>23</ID>
+      <originZone>20</originZone>
+      <state>0</state>
+      <position>
+        <x>28.5557556</x>
+        <y>0.799999952</y>
+        <z>193.449509</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>29.53107</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>16</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>60.25856</x>
+        <y>0.8</y>
+        <z>219.461365</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>76.54751</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>16</ID>
+      <originZone>6</originZone>
+      <state>0</state>
+      <position>
+        <x>60.25856</x>
+        <y>0.8</y>
+        <z>219.461365</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>76.54751</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>15</ID>
+      <originZone>7</originZone>
+      <state>2</state>
+      <position>
+        <x>-8.508287</x>
+        <y>0.7999999</y>
+        <z>214.682434</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>255.009277</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -861,13 +771,43 @@
       <originZone>5</originZone>
       <state>2</state>
       <position>
-        <x>20.4770947</x>
-        <y>0.800001264</y>
-        <z>212.44133</z>
+        <x>-24.75353</x>
+        <y>0.7999995</y>
+        <z>216.975464</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>110.983482</y>
+        <y>330.309143</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>15</ID>
+      <originZone>6</originZone>
+      <state>2</state>
+      <position>
+        <x>-4.59570837</x>
+        <y>0.799999952</y>
+        <z>225.982681</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>55.23823</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>18</originZone>
+      <state>1</state>
+      <position>
+        <x>-5.16635847</x>
+        <y>0.8</y>
+        <z>225.81749</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>44.3816643</y>
         <z>0</z>
       </rotation>
     </AIEntry>

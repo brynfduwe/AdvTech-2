@@ -6,14 +6,14 @@
       <originZone>21</originZone>
       <state>2</state>
       <position>
-        <x>-79.2021942</x>
-        <y>0.8</y>
-        <z>55.2947655</z>
+        <x>-70.76585</x>
+        <y>0.8000001</y>
+        <z>68.8245544</z>
       </position>
       <rotation>
-        <x>306.932465</x>
-        <y>216.90625</y>
-        <z>230.640457</z>
+        <x>0.009451448</x>
+        <y>188.5871</y>
+        <z>181.257889</z>
       </rotation>
     </AIEntry>
     <AIEntry>
@@ -21,13 +21,13 @@
       <originZone>23</originZone>
       <state>2</state>
       <position>
-        <x>-75.40842</x>
+        <x>-69.8097</x>
         <y>0.8000001</y>
-        <z>53.67011</z>
+        <z>-29.2227135</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>196.622421</y>
+        <y>174.622345</y>
         <z>0</z>
       </rotation>
     </AIEntry>
@@ -36,13 +36,58 @@
       <originZone>4</originZone>
       <state>2</state>
       <position>
-        <x>-72.6643753</x>
-        <y>0.8</y>
-        <z>52.57034</z>
+        <x>-61.0143661</x>
+        <y>0.8000001</y>
+        <z>59.39633</z>
       </position>
       <rotation>
         <x>0</x>
-        <y>141.414337</y>
+        <y>273.414</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>17</originZone>
+      <state>1</state>
+      <position>
+        <x>-103.772667</x>
+        <y>0.8</y>
+        <z>-23.309042</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>16.45951</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>1</ID>
+      <originZone>21</originZone>
+      <state>0</state>
+      <position>
+        <x>-115.767479</x>
+        <y>0.8000002</y>
+        <z>63.778923</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>143.367783</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>22</ID>
+      <originZone>6</originZone>
+      <state>1</state>
+      <position>
+        <x>-122.830284</x>
+        <y>0.8</y>
+        <z>7.64874268</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>138.565781</y>
         <z>0</z>
       </rotation>
     </AIEntry>

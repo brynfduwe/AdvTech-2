@@ -33,6 +33,9 @@ public class AI : MonoBehaviour
 
     private Vector3 fleeDir;
 
+    private float fleeTimer;
+    float fleeTime = 25;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -99,9 +102,17 @@ public class AI : MonoBehaviour
 
 	            GetComponent<Rigidbody>().AddForce(transform.forward * runSpeed);
 
-	            // transform.position = Vector2.MoveTowards(transform.position, player.position, -1 * Time.deltaTime);
+                fleeTimer += Time.deltaTime;
 
-	            if (Physics.Raycast(transform.position, transform.forward, 50))
+
+                if(fleeTimer > fleeTime)
+                {
+                    GetComponent<Renderer>().material.color = Color.blue;
+                    CurrentState = State.Moving;
+                }
+                // transform.position = Vector2.MoveTowards(transform.position, player.position, -1 * Time.deltaTime);
+
+                if (Physics.Raycast(transform.position, transform.forward, 50))
 	            {
 	                Flee();
 	            }
@@ -196,16 +207,16 @@ public class AI : MonoBehaviour
         {
             if (CurrentState != State.Dead)
             {
-                Collider[] hitColliders = Physics.OverlapSphere(transform.position, 60);
+                Collider[] hitColliders = Physics.OverlapSphere(transform.position, 10);
                 for (int i = 0; i < hitColliders.Length; i++)
                 {
                     if (hitColliders[i].GetComponent<AI>() != null)
                     {
-                        hitColliders[i].GetComponent<AI>().setFlee();
+                        hitColliders[i].GetComponent<AI>().setFlee(5);
                     }
                 }
 
-                setFlee();
+                setFlee(5);
             }
         }
         else
@@ -216,12 +227,13 @@ public class AI : MonoBehaviour
     }
 
 
-    public void setFlee()
+    public void setFlee(int seconds)
     {
         if (CurrentState != State.Dead)
         {
             CurrentState = State.Fleeing;
             GetComponent<Renderer>().material.color = Color.yellow;
+            fleeTimer = seconds;
             Flee();
         }
     }
@@ -231,12 +243,12 @@ public class AI : MonoBehaviour
     {
         if (CurrentState != State.Dead)
         {
-            Collider[] hitColliders = Physics.OverlapSphere(transform.position, 60);
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, 50);
             for (int i = 0; i < hitColliders.Length; i++)
             {
                 if (hitColliders[i].GetComponent<AI>() != null)
                 {
-                    hitColliders[i].GetComponent<AI>().setFlee();
+                    hitColliders[i].GetComponent<AI>().setFlee(30);
                 }
             }
         }
@@ -258,7 +270,7 @@ public class AI : MonoBehaviour
         switch (CurrentState)
         {
             case State.Fleeing:
-                setFlee();
+                setFlee(10);
                 break;
 
             case State.Dead:

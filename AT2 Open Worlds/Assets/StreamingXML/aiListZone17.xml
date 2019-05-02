@@ -676,5 +676,20 @@
         <z>0</z>
       </rotation>
     </AIEntry>
+    <AIEntry>
+      <ID>15</ID>
+      <originZone>21</originZone>
+      <state>2</state>
+      <position>
+        <x>-180.273026</x>
+        <y>0.8</y>
+        <z>56.25253</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>335.604126</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
   </AIList>
 </AIdatabase>

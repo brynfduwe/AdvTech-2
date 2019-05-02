@@ -136,5 +136,35 @@
         <z>0</z>
       </rotation>
     </AIEntry>
+    <AIEntry>
+      <ID>13</ID>
+      <originZone>20</originZone>
+      <state>0</state>
+      <position>
+        <x>-58.1365166</x>
+        <y>0.8</y>
+        <z>-61.0236969</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>339.85553</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
+    <AIEntry>
+      <ID>6</ID>
+      <originZone>16</originZone>
+      <state>0</state>
+      <position>
+        <x>-52.8548851</x>
+        <y>0.8</y>
+        <z>-8.867118</z>
+      </position>
+      <rotation>
+        <x>0</x>
+        <y>198.415</y>
+        <z>0</z>
+      </rotation>
+    </AIEntry>
   </AIList>
 </AIdatabase>

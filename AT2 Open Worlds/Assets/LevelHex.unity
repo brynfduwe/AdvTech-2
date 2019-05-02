@@ -7079,6 +7079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07849d577d6a8b45a38253a584d3159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  csvFilePath: Assets\testwitthouttCOURR.csv
   fpsCount: {fileID: 261897066}
   mpfCount: {fileID: 171643474}
 --- !u!1001 &649341542
